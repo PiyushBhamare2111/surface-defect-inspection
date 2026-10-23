@@ -1,0 +1,131 @@
+{
+ "n_test": 270,
+ "split_sizes": [
+  1260,
+  270,
+  270
+ ],
+ "accuracy": 1.0,
+ "macro_f1": 1.0,
+ "per_class": {
+  "crazing": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1-score": 1.0,
+   "support": 45.0
+  },
+  "inclusion": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1-score": 1.0,
+   "support": 45.0
+  },
+  "patches": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1-score": 1.0,
+   "support": 45.0
+  },
+  "pitted_surface": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1-score": 1.0,
+   "support": 45.0
+  },
+  "rolled-in_scale": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1-score": 1.0,
+   "support": 45.0
+  },
+  "scratches": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1-score": 1.0,
+   "support": 45.0
+  }
+ },
+ "confusion_matrix": [
+  [
+   45,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   45,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   45,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   45,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   45,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   45
+  ]
+ ],
+ "critical_classes": [
+  "crazing",
+  "inclusion",
+  "pitted_surface",
+  "scratches"
+ ],
+ "single_threshold": {
+  "t": 0.5,
+  "escape_rate": 0.0,
+  "false_reject_rate": 0.0
+ },
+ "guard_band": {
+  "accept": 0.2,
+  "reject": 0.8,
+  "escape_rate": 0.0,
+  "false_reject_rate": 0.0,
+  "review_rate": 0.0
+ },
+ "robustness": {
+  "blur": {
+   "0": 1.0,
+   "1": 0.5740740740740741,
+   "2": 0.5925925925925926,
+   "3": 0.5888888888888889
+  },
+  "gain": {
+   "0.6": 1.0,
+   "0.8": 1.0,
+   "1.0": 1.0,
+   "1.2": 1.0,
+   "1.4": 0.9925925925925926
+  }
+ }
+}

@@ -1,0 +1,14 @@
+[project]
+name = "surface-defect-inspection"
+version = "1.0.0"
+description = "Deep-learning surface defect inspection for hot-rolled steel (NEU-CLS) with Grad-CAM and accept/reject logic"
+requires-python = ">=3.10"
+authors = [{ name = "Piyush Bhamare" }]
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["defect_inspect"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

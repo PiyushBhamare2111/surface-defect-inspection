@@ -1,0 +1,19 @@
+Test accuracy: 1.0000  (n=270)
+                 precision    recall  f1-score   support
+
+        crazing     1.0000    1.0000    1.0000        45
+      inclusion     1.0000    1.0000    1.0000        45
+        patches     1.0000    1.0000    1.0000        45
+ pitted_surface     1.0000    1.0000    1.0000        45
+rolled-in_scale     1.0000    1.0000    1.0000        45
+      scratches     1.0000    1.0000    1.0000        45
+
+       accuracy                         1.0000       270
+      macro avg     1.0000    1.0000    1.0000       270
+   weighted avg     1.0000    1.0000    1.0000       270
+
+Single threshold 0.50: escape 0.000%, false reject 0.000%
+Guard band [0.2, 0.8]: {'escape_rate': 0.0, 'false_reject_rate': 0.0, 'review_rate': 0.0}
+Robustness: {'blur': {0: 1.0, 1: 1.0, 2: 0.9962962962962963, 3: 0.8518518518518519}, 'gain': {0.6: 1.0, 0.8: 1.0, 1.0: 1.0, 1.2: 1.0, 1.4: 0.9925925925925926}}
+Stressed (blur 3): acc 0.8519, t=0.5: escape 16.111%, FRR 0.000%; band {'escape_rate': 0.07222222222222222, 'false_reject_rate': 0.0, 'review_rate': 0.0962962962962963}
+Wrote C:\Piyush Document\Projects\surface-defect-inspection\reports\metrics.json and figures in C:\Piyush Document\Projects\surface-defect-inspection\docs

@@ -1,0 +1,18 @@
+# Core dependencies (tested on Windows 11, Python 3.12).
+#
+# torch / torchvision below install the CPU build from PyPI. For an NVIDIA GPU
+# install the CUDA build FIRST from the official PyTorch index, then this file:
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu124
+#   pip install -r requirements.txt
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.5.2
+pandas==3.1.0
+pillow==12.3.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+streamlit==1.66.1
+requests==2.34.2
+pytest==9.1.1
+# Optional, only for scripts/take_screenshots.py:
+#   pip install playwright==1.64.1 && python -m playwright install chromium
